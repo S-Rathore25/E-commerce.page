@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Page</title>
+   <style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-grid {
+    flex-basis: 70%;
+}
+
+.product-grid ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-grid li {
+    margin: 20px;
+    width: 200px;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.product-grid img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.product-grid h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.product-grid p {
+    font-size: 14px;
+    color: #666;
+}
+
+.product-grid button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.product-grid button:hover {
+    background-color: #444;
+}
+
+.product-details {
+    flex-basis: 30%;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.product-details img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.product-details h3 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.product-details p {
+    font-size: 16px;
+    color: #666;
+}
+
+footer {
+    background-color: #333;
+    color: #
+}
+   </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="product-grid">
+            <h2>Featured Products</h2>
+            <ul>
+                <li>
+                    <img src="../ecommerce_page.html/7487e52397836bc591bb4864ee2804d3.jpg" alt="Product 1">
+                    <h3>Product 1</h3>
+                    <p>$19.99</p>
+                    <button>Add to Cart</button>
+                </li>
+                <li>
+                    <img src="../ecommerce_page.html/OIP.jpeg" alt="Product 2">
+                    <h3>Product 2</h3>
+                    <p>$29.99</p>
+                    <button>Add to Cart</button>
+                </li>
+                <li>
+                    <img src="../ecommerce_page.html/BODY SHOP HERO 140922_SF.webp" alt="Product 3">
+                    <h3>Product 3</h3>
+                    <p>$39.99</p>
+                    <button>Add to Cart</button>
+                </li>
+            </ul>
+        </section>
+        <section class="product-details">
+            <h2>Product Details</h2>
+            <img src="../ecommerce_page.html/OIP.jpeg" alt="Product 1">
+            <h3>Product 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+            <p>Price: $19.99</p>
+            <button>Add to Cart</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 E-Commerce Page</p>
+    </footer>
+</body>
+</html>
